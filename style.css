@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(230, 17%, 14%);
+}
+
+main {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    font-family: "inter";
+}
+
+.head-setion {
+    background-color: hsl(232, 19%, 15%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-container {
+    display: flex;
+}
+
+.top-medias {
+    background-color: hsl(228, 28%, 20%);
+    border-top: solid 4px rgb(6, 74, 161);
+    padding: 20px 40px 20px 40px;
+    margin: 10px 10px;
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.youtube {
+    background-color: hsl(228, 28%, 20%);
+    border-top: solid 4px hwb(0 3% 9% / 0.795);
+    padding: 20px 40px 20px 40px;
+    margin: 10px 10px;
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.insta-container {
+    background-color: hsl(228, 28%, 20%);
+    border-top: solid 4px rgba(232, 165, 8, 0.913);
+    padding: 20px 40px 20px 40px;
+    margin: 10px 10px;
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 1.5rem;
+}
+
+.icon {
+    display: flex;
+    margin-left: 50px;
+}
+
+.top-medias .highlight {
+    margin-left: 10px;
+    color: darkgray;
+    font-size: smaller;
+    float: right;
+}
+
+.youtube .highlight {
+    margin-left: 10px;
+    color: darkgray;
+    font-size: smaller;
+    float: right;
+}
+
+.insta-container .highlight {
+    margin-left: 10px;
+    color: darkgray;
+    font-size: smaller;
+    float: right !important;
+}
+
+.top-medias h1 {
+    padding: 10px 5px 10px 50px;
+}
+
+.insta-container h1 {
+    padding: 10px 5px 10px 50px;
+}
+
+.youtube h1 {
+    padding: 10px 5px 10px 50px;
+}
+
+.top-medias p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: darkgray;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.youtube p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: darkgray;
+    margin-left: 30px;
+}
+
+.insta-container p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: darkgray;
+    margin-left: 30px;
+}
+
+.top-medias .up {
+    font-size: 12px;
+    color: rgb(5, 167, 115);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.insta-container .up {
+    font-size: 12px;
+    color: rgb(5, 167, 115);
+    padding: 5px;
+    margin: 10px 20px 0px 50px;
+}
+
+.youtube .down {
+    font-size: 12px;
+    color: hwb(0 3% 9% / 0.795);
+    padding: 5px;
+}
+
+.down img {
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.up img {
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.top-medias .down {
+    font-size: 12px;
+    color: hwb(0 3% 9% / 0.795);
+    padding: 5px;
+}
+
+.lower-container {
+    display: flex;
+}
+
+.tittle-contents {
+    margin: 10px 20px 20px 20px;
+}
+
+.darkmode-btn {
+    margin: 10px 50px 20px 20px;
+}
+
+.darkmode-btn .bg {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: lightgreen;
+    transition: 0.5s;
+    box-sizing: inset 0 8px 60px rgba(0, 0, 0, 1);
+}
+
+.darkmode-btn p {
+    color: #fff;
+    float: left;
+}
+
+.darkmode-btn label {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.lower-container-2 {
+    display: flex;
+}
+
+.wrapper {
+    background-color: hsl(228, 28%, 20%);
+    padding: 20px;
+    margin: 5px 5px;
+    height: 150px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.one-t {
+    color: darkgray;
+    font-size: 12px;
+}
+
+.topline {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.lowerline {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.wrapper .svg-down {
+    color: red;
+    font-size: 10px;
+}
+
+.wrapper .svg {
+    color: green;
+    font-size: 10px;
+}
+
+
+/* Add these styles to your existing CSS */
+
+.toggle-label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.toggle-label input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(24, 243, 82);
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #4CAF50;
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+
+/* Light and Dark Theme Styles */
+
+body.light-theme {
+    background-color: white;
+    color: black;
+}
+
+.head-setion.light-theme {
+    background-color: #fff;
+    color: black;
+}
+
+.top-medias.light-theme,
+.insta-container.light-theme,
+.youtube.light-theme,
+.wrapper.light-theme {
+    background-color: #ece7e7;
+    color: black;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.attribution a {
+    color: hsl(228, 19%, 70%);
+}
+
+
+/* Mobile (up to 600px) */
+
+@media (max-width: 600px) {
+    .head-setion {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .top-medias,
+    .youtube,
+    .insta-container,
+    .wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+    .top-container,
+    .lower-container,
+    .lower-container-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tittle-contents {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Tablet (601px to 1024px) */
+
+@media (min-width: 601px) and (max-width: 601px) {
+    .top-medias,
+    .youtube,
+    .insta-container,
+    .wrapper {
+        width: 100%;
+    }
+    .head-setion {
+        flex-direction: row;
+    }
+    .top-container,
+    .lower-container,
+    .lower-container-2 {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* Large Screens (1025px and up) */
+
+
+/* @media (min-width: 1025px) {
+    .top-medias,
+    .youtube,
+    .insta-container,
+    .wrapper {
+        width: 23%;
+    }
+    .top-container,
+    .lower-container,
+    .lower-container-2 {
+        justify-content: space-between;
+    }
+} */
